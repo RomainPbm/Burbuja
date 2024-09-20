@@ -11,7 +11,8 @@ def leer_alumnos(archivo):
                 else:
                     print(f"Línea inválida (sin separador ','): {linea}")
             else:
-                print("Línea vacía encontrada, omitiendo...")
+                print("Línea vacía encontrada, omitiendo...") 
+                print("Ya es tarde joven")
     return alumnos
 
 def calcular_promedio(alumnos):
